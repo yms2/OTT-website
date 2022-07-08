@@ -1,111 +1,103 @@
 #wrap{width: 100%;}
 
 
-#main_img{
-    float: left;
-    width: 100%;height: 968px;
-}
-#main_img video{
-    width: 100%;height: 968px ;
-    object-fit: cover;}
 
+.contentBx{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+.contentBx .text{
+    margin-left: 150px;
+    max-width: 800px;
+}
+.contentBx .text h2{
+    font-size: 6em;
+    color: #ffd500;
+}
+.contentBx .text p{
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.8em;
+}
+.contentBx .text h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight:700 ;
+}
+.contentBx .text a{
+    background: #ffd500;
+    color: #fff;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 4.1em;
+    margin:55px 20px 5px 0 ;
+    border-radius: 5px;
+}
+.contentBx .text a:hover{
+    background: #3b5998;
+}
+.Tv img{
+    height: 900px;
+    position:absolute;top: 160px; right: 5px;
+}
+.Tv_in{
+    width:800px ;
+}
+.Tv_in img{
+    position: relative;
+    top: 5px;
+    left: 402px;
+    width: 165px;height:185px ;
+    border-radius: 5px;
+}
 #contents{
-    float: left;
-    width: 100%;height: 2000px;
-    background-color: rgb(89, 63, 63);
-    overflow: hidden;
+    width: 100%;height: 1500px;
+    background-color: rgb(39, 38, 85);
 }
 
 #site{
-    width: 100%;height: 180px;
-}
-#site ul{
+    width: 1300px;height: 200px;
     margin: 0 auto;
-    width: 1000px; height: 180px;
 }
-#site li{
-    float: left;
-    width: 230px;height: 120px;
-    border: 1px solid #ccc;
-    border-radius: 15%;
-    cursor: pointer;
-    margin: 28px 0 0 23px;
-    background-color: white;
+#site h2{
+    font-size: 2em;
+    padding-top: 30px;
 }
-#site li:first-child{margin-left: 0;}
-#site li p{
-    font-size: 40px;
-    text-align: center;
-    line-height: 120px;
-    color:red;
-    font-weight: bold;
+#site .btn{
+    background:#3b5998;
+    display: inline-flex;
+    padding: 5px 5px;
+    margin:45px 20px 5px 0 ;
+    border-radius: 5px;
 }
-#site li img{width: 200px;}
-#site .nav1{
-   margin: 35px 0 0 13px;
+#site .btn img{
+    width: 35px;height: 35px;
 }
-#site .nav2{
-    height: 100px;
-    margin:5px 15px;
+#site .btn:hover{
+    background: #132337;
 }
-
-.work1{
-    margin: 0 auto;
-    width:1300px; height: 0px;
-    background-color: bisque;
-    transition: 1s;
-}
-.work2{
-    margin: 0 auto;
-    width:1300px; height: 0px;
-    background-color: bisque;
-    transition: 1s;
-}
-.work3{
-    margin: 0 auto;
-    width:1300px; height: 0px;
-    background-color: bisque;
-    transition: 1s;
-}
-.work4{
-    margin: 0 auto;
-    width:1300px; height: 0px;
-    background-color: bisque;
-    transition: 1s;
-}
-
-.active{
-    height: 1000px;
-    border-radius: 20px;
-}
-
-
 
 #works{
-    margin:30px 0 0 300px;
-    background-color: aqua;
-    float: left;
-    width: 1300px;height: 1300px;
-    display: none;
+    width: 1300px;height: 1000px;
+    background: #ffd500;
+    margin: 0 auto;
 }
-#works > div{
-    margin-left: 50px;
+#works ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
 }
-#netflix{
+#works ul li{
     float: left;
-    margin: 20px 0 0 140px;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
-#netflix > div{
-    margin:20px 10px;    
-    float: left;
-}
-#netflix .n1_1{
-    float: left;
-}
-#netflix img{
-    width: 500px; height: 600px;
-}
+
+
 
 #enter{
     font-size: 30px;
@@ -120,7 +112,7 @@
 }
 #enter ul{
     margin: 0 auto;
-}
+}   
 #enter li{
     float: left;
     width: 270px;height: 150px;
