@@ -21,7 +21,7 @@
                     <li><a href="#">찜한 콘텐츠</a></li>
                 </ul>
                 <div>
-                    <a href="#">검색</a>
+                    <a href="#" data-needpopup-options="custom">검색</a>
                     <a href="#">로그인</a>
                 </div>
             </header>
@@ -57,21 +57,50 @@
             <!-- 상단의 사이트 종류 -->
             <article id="site">
                 <h2>귀하를 위한 TV프로그램 및 영화</h2>
-            <a href="#" class="btn"><img src="./imgs/icon.png" alt=""></a>
-            <a href="#" class="btn"><img src="./imgs/icon2.png" alt=""></a>
-            <a href="#" class="btn"><img src="./imgs/icon3.png" alt=""></a>
-            <a href="#" class="btn"><img src="./imgs/icon4.png" alt=""></a>
-            <a href="#" class="btn"><img src="./imgs/icon5.png" alt=""></a>
-            <a href="#" class="btn"><img src="./imgs/plus_icon.png" alt=""></a>
-            </article>
+            <div id="onclick">
+            <a href="" class="btn"><img src="./imgs/icon.png" alt=""></a>
+            <a href="" class="btn"><img src="./imgs/icon2.png" alt=""></a>
+            <a href="" class="btn"><img src="./imgs/icon3.png" alt=""></a>
+            <a href="" class="btn"><img src="./imgs/icon4.png" alt=""></a>
+            <a href="" class="btn"><img src="./imgs/icon5.png" alt=""></a>
+            <a href="" class="btn"><img src="./imgs/plus_icon.png" alt=""></a>
+            </div>    
+        </article>
             <article id="works">
-                <ul>
-                    <li>전부</li>
-                    <li>영화</li>
-                    <li>TV프로그램</li>
-                </ul>
+                <div class="work_img">
+                    <img src="./imgs/nex1.png " alt="">
+                    <img src="./imgs/nex2.png " alt="">
+                    <img src="./imgs/nex3.png " alt="">
+                    <img src="./imgs/nex4.png " alt="">
+                </div>
+                <div class="work_img">
+                    <img src="./imgs/nex1.png " alt="">
+                    <img src="./imgs/nex2.png " alt="">
+                    <img src="./imgs/nex3.png " alt="">
+                    <img src="./imgs/nex4.png " alt="">
+                </div>
+                <div class="work_img">
+                    <img src="./imgs/nex1.png " alt="">
+                    <img src="./imgs/nex2.png " alt="">
+                    <img src="./imgs/nex3.png " alt="">
+                    <img src="./imgs/nex4.png " alt="">
+                </div>
+                <div class="work_img">
+                    <img src="./imgs/nex1.png " alt="">
+                    <img src="./imgs/nex2.png " alt="">
+                    <img src="./imgs/nex3.png " alt="">
+                    <img src="./imgs/nex4.png " alt="">
+                </div>
             </article>
 <script>
+    window.onload = function() {
+        var el = document.getElementById("onclick");
+        el.onclick = hello;
+    }
+
+    function hello() {
+        
+    }
 </script>
 
 
