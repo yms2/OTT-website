@@ -1,0 +1,54 @@
+#wrap{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: beige;
+}
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+}
+.head_logo a{
+    color: red;
+    font-size: 55px;
+    text-decoration: none;
+}
+
+.head_logo p{
+    font-size: 20px;
+}
+.row_group > div{
+    margin-left: 230px;
+}
+.row_group input{
+    width: 580px;
+    height: 60px;
+}
+.mail_Select{
+    height:60px;
+}
+.btn_area{
+    margin-top: 50px;
+}
+.select .check{
+    width: 5px;
+}
+.row_group2{
+    margin-left: 230px;
+}
+.row_group2 input{
+    margin: 0 auto;
+    width: 30px;
+}
+.btn_area{
+    margin-left: 230px;
+}
+.btn_area input{
+    width: 580px;
+    height: 60px;
+}
